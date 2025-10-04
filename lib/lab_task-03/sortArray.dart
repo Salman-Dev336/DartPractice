@@ -20,5 +20,5 @@ void main() {
   // Descending sort
   List<int> descending = List.from(numbers);
   descending.sort((a, b) => b.compareTo(a));
-  print("Descending: $descending");
+  print("descending: $descending");
 }
